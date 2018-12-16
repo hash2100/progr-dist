@@ -1,0 +1,19 @@
+----------------------------------------------------------------
+Sun Dec 16 21:05:32 EET 2018:
+Booting Derby version The Apache Software----------------------------------------------------------------
+Sun Dec 16 21:05:53 EET 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0167-b868-7d33-000006b04588 
+on database directory /home/honorius/projects/dist1/labs/github/cap10/db-derby/AgendaEMail with class loader sun.misc.Launcher$AppClassLoader@511d50c0 
+Loaded from file:/home/honorius/projects/dist1/labs/github/cap10/db-derby-10.14.2.0-bin/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_151-b12
+user.dir=/home/honorius/projects/dist1/labs/github/cap10/db-derby
+os.name=Linux
+os.arch=amd64
+os.version=4.8.10-300.fc25.x86_64
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+--------------------------------------------------
+Sun Dec 16 21:05:51 EET 2018:
+Shutting down instance a816c00e-0167-b868-c317-000006c71f00 on database directory /home/honorius/projects/dist1/labs/github/cap10/db-derby/AgendaEMail with class loader sun.misc.Launcher$AppClassLoader@266474c2 
+----------------------------------------------------------------

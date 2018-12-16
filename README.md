@@ -88,8 +88,35 @@ $ sh receiver.sh
 	* jsphello
 	* cmmdc
 	* JSPApp: JSTLCore
-	
-	
+	* JSPApp: JSTLsql
+	* marcaje personale: 
+	    * mytag (dateTag - fara atribute si fara corp)
+	    * mytag (ziuaTag - cu atribute si fara corp)
+	    * mytag (modTextTag - cu corp)
+	    
+	    
+### Cap.11 Desfăşurarea în nor
+* GAE: appcmmdc, appcmmdcjsp
+* Docker:
+    * instalarea s-a făcut sub Fedora Linux folosind:
+```
+$ sudo dnf install docker
+```
+    urmată de verificare:
+```
+$ sudo service docker start
+$ sudo docker run hello-world
+```
+    Rularea lui jetty:
+```
+$ sudo docker pull docker.io/varsy/jetty
+$ sudo docker run -p 8080:8081 -d -i -t docker.io/varsy/jetty /run-jetty.sh
+$ sudo docker ps
+$ sudo docker cp ../cap10/jsp/cmmdc/dist/JSPCmmdc.war 16cede499e20:/home/jetty/jetty-current/webapps
+$ sudo docker kill 16cede499e20
+```
+
+
 ## Adrese de grup
 * 10lf363 at googlegroups dot com
 * 10lf362infoa at yahoogroups dot com

@@ -29,11 +29,11 @@ Ambele sunt obligatorii.
 ### Cap.4 Invocarea procedurilor la distanta
 * cmmdc0, iiop
 * corba: temporal (la compilare se foloseste `javac -cp ../i:.`
-        ```
-		$ orbd -ORBInitialHost localhost -ORBInitialPort 1050
-		$ java -cp ../i:. CmmdcServer -ORBInitialHost localhost -ORBInitialPort 1050
-		$ java -cp ../i:. CmmdcClient -ORBInitialHost localhost -ORBInitialPort 1050
-		```
+```
+$ orbd -ORBInitialHost localhost -ORBInitialPort 1050
+$ java -cp ../i:. CmmdcServer -ORBInitialHost localhost -ORBInitialPort 1050
+$ java -cp ../i:. CmmdcClient -ORBInitialHost localhost -ORBInitialPort 1050
+```
 
 * corba: persistent
     va trebui sa stergeti folder-ul orb.db din server (daca exista)

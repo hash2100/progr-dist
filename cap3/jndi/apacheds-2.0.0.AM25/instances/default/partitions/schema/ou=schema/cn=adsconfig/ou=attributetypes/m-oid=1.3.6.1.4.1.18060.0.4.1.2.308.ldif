@@ -1,0 +1,19 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.2.308,ou=attributeTypes,cn=adsconfig,ou=schema
+entryCSN: 20181114103837.394000Z#000000#000#000000
+creatorsname: uid=admin,ou=system
+m-length: 0
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.15
+m-singlevalue: TRUE
+m-ordering: caseExactOrderingMatch
+entryUUID: 33ca62fd-bb23-4bf2-a974-73b605952030
+m-substr: caseExactSubstringsMatch
+m-equality: caseExactMatch
+m-description: The keystore file to use to store certificates
+m-oid: 1.3.6.1.4.1.18060.0.4.1.2.308
+objectclass: metaTop
+objectclass: metaAttributeType
+objectclass: top
+createTimestamp: 20181114103838.805Z
+m-name: ads-keystoreFile
+entryParentId: 32c28465-e0b6-4401-88a8-a73b975e3b1f

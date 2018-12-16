@@ -1,0 +1,10 @@
+version: 1
+dn: ou=attributeTypes,cn=rfc2307bis,ou=schema
+entryCSN: 20181114103837.628000Z#000001#000#000000
+ou: attributetypes
+objectclass: organizationalUnit
+objectclass: top
+createTimestamp: 20181114103838.877Z
+creatorsname: uid=admin,ou=system
+entryUUID: d3d15907-2972-425c-bbec-9ec7862a49b0
+entryParentId: 6e72728f-09d3-447b-837c-0e1c1dc32c8a

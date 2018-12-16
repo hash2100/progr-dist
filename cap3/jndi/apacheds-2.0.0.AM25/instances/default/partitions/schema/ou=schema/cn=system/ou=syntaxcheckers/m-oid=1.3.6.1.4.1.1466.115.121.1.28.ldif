@@ -1,0 +1,13 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.1466.115.121.1.28,ou=syntaxCheckers,cn=system,ou=schema
+entryCSN: 20181114103837.714000Z#000000#000#000000
+m-oid: 1.3.6.1.4.1.1466.115.121.1.28
+objectclass: metaSyntaxChecker
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20181114103838.651Z
+creatorsname: uid=admin,ou=system
+entryUUID: 700d9ab7-a1c2-40f7-9d19-28cae0b9ed51
+m-fqcn: org.apache.directory.api.ldap.model.schema.syntaxCheckers.JpegSyntaxChec
+ ker
+entryParentId: c0cd3206-d96e-41fd-9bf3-7317950ffeee

@@ -1,0 +1,20 @@
+version: 1
+dn: m-oid=2.5.24.6,ou=attributeTypes,cn=apache,ou=schema
+entryCSN: 20181114103837.500000Z#000000#000#000000
+m-usage: DIRECTORY_OPERATION
+m-collective: FALSE
+creatorsname: uid=admin,ou=system
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.1
+m-singlevalue: FALSE
+entryUUID: 9c8df322-29d1-40a9-ba9e-0ad1c6af6afa
+m-equality: directoryStringFirstComponentMatch
+m-description: Access control information that applies to a single subentry
+m-obsolete: FALSE
+m-oid: 2.5.24.6
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20181114103838.579Z
+m-name: subentryACI
+entryParentId: 76e75177-5c17-44f4-87f4-8c83030d4e55

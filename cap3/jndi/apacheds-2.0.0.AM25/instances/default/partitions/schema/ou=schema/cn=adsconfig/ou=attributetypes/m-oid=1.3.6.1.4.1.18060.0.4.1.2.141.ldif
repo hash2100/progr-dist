@@ -1,0 +1,18 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.2.141,ou=attributeTypes,cn=adsconfig,ou=schema
+entryCSN: 20181114103837.408000Z#000001#000#000000
+creatorsname: uid=admin,ou=system
+m-length: 0
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.27
+m-singlevalue: TRUE
+m-ordering: integerOrderingMatch
+entryUUID: 236bc5c2-2240-4912-82fa-a5cd65c3f057
+m-equality: integerMatch
+m-description: The size before a journal rotation occurs.
+m-oid: 1.3.6.1.4.1.18060.0.4.1.2.141
+objectclass: top
+objectclass: metaTop
+objectclass: metaAttributeType
+createTimestamp: 20181114103838.896Z
+m-name: ads-journalRotation
+entryParentId: 32c28465-e0b6-4401-88a8-a73b975e3b1f

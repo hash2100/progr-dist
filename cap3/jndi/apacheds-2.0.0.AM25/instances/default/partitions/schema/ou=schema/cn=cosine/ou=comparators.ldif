@@ -1,0 +1,10 @@
+version: 1
+dn: ou=comparators,cn=cosine,ou=schema
+entryCSN: 20181114103837.085000Z#000001#000#000000
+ou: comparators
+objectclass: organizationalUnit
+objectclass: top
+createTimestamp: 20181114103838.883Z
+creatorsname: uid=admin,ou=system
+entryUUID: 3f27f8e8-2559-42a4-81bc-2583e79a6bea
+entryParentId: 31699574-f797-44d4-ae35-fef84287dbad

@@ -1,0 +1,20 @@
+version: 1
+dn: m-oid=2.5.4.29,ou=attributeTypes,cn=core,ou=schema
+entryCSN: 20181114103837.070000Z#000000#000#000000
+m-usage: USER_APPLICATIONS
+m-collective: FALSE
+creatorsname: uid=admin,ou=system
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.43
+m-singlevalue: TRUE
+entryUUID: 30c43e40-6b2e-440d-9bed-4431e4d59a53
+m-equality: presentationAddressMatch
+m-description: RFC2256: presentation address
+m-obsolete: FALSE
+m-oid: 2.5.4.29
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20181114103838.761Z
+m-name: presentationAddress
+entryParentId: 60ca505d-338b-4510-936e-8a7e3cba6e39

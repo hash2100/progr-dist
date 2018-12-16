@@ -1,0 +1,10 @@
+version: 1
+dn: ou=ditStructureRules,cn=corba,ou=schema
+entryCSN: 20181114103837.150000Z#000000#000#000000
+ou: ditstructurerules
+objectclass: organizationalUnit
+objectclass: top
+createTimestamp: 20181114103839.003Z
+creatorsname: uid=admin,ou=system
+entryUUID: 45848996-e8db-42f8-b767-f262651d611c
+entryParentId: d9965c5b-9a4d-4785-8e5b-4d7ee1b9bf86

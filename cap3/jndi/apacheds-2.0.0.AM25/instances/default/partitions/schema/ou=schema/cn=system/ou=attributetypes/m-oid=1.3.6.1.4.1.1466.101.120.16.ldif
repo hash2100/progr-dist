@@ -1,0 +1,20 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.1466.101.120.16,ou=attributeTypes,cn=system,ou=schema
+entryCSN: 20181114103837.775000Z#000000#000#000000
+m-usage: DIRECTORY_OPERATION
+m-collective: FALSE
+creatorsname: uid=admin,ou=system
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.54
+m-singlevalue: FALSE
+entryUUID: f75e069d-4e7e-47f1-8369-bda69ec87178
+m-equality: objectIdentifierFirstComponentMatch
+m-description: RFC2252: LDAP syntaxes
+m-obsolete: FALSE
+m-oid: 1.3.6.1.4.1.1466.101.120.16
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20181114103838.714Z
+m-name: ldapSyntaxes
+entryParentId: 64013167-1d76-45cc-a374-60b7129f1489

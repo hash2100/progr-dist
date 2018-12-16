@@ -1,0 +1,16 @@
+version: 1
+dn: m-oid=1.3.6.1.1.1.2.15,ou=objectClasses,cn=rfc2307bis,ou=schema
+m-typeobjectclass: AUXILIARY
+entryCSN: 20181114103837.631000Z#000000#000#000000
+m-supobjectclass: top
+m-description: Associates a NIS domain with a naming context
+objectclass: metaObjectClass
+objectclass: metaTop
+objectclass: top
+m-oid: 1.3.6.1.1.1.2.15
+createTimestamp: 20181114103838.744Z
+m-name: nisDomainObject
+creatorsName:: MC45LjIzNDIuMTkyMDAzMDAuMTAwLjEuMT0gYWRtaW4gLDIuNS40LjExPSBzeXN0Z
+ W0g
+entryUUID: a18067b9-80bd-4263-95ab-54660f0d73fc
+entryParentId: 8b519c35-ed2a-42af-b773-0b199afb0df7

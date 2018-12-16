@@ -1,0 +1,20 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.2312.4.1.2,ou=attributeTypes,cn=autofs,ou=schema
+entryCSN: 20181114103837.542000Z#000000#000#000000
+m-usage: USER_APPLICATIONS
+m-collective: FALSE
+creatorsname: uid=admin,ou=system
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.26
+m-singlevalue: TRUE
+entryUUID: 5ffd6659-cd47-4881-90b6-c7571b272257
+m-equality: caseExactMatch
+m-description: Information used by the autofs automounter
+m-obsolete: FALSE
+m-oid: 1.3.6.1.4.1.2312.4.1.2
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20181114103838.859Z
+m-name: automountInformation
+entryParentId: 7b8654a4-68ee-4a0c-a024-af89ca440f03

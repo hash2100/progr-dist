@@ -1,0 +1,20 @@
+version: 1
+dn: m-oid=1.3.6.1.1.1.1.20,ou=attributeTypes,cn=nis,ou=schema
+entryCSN: 20181114103837.216000Z#000000#000#000000
+m-usage: USER_APPLICATIONS
+m-collective: FALSE
+creatorsname: uid=admin,ou=system
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.26
+m-singlevalue: TRUE
+entryUUID: 28b5c342-735e-4b90-bbd5-02e5f2c7440a
+m-equality: caseIgnoreIA5Match
+m-description: IP network
+m-obsolete: FALSE
+m-oid: 1.3.6.1.1.1.1.20
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20181114103838.661Z
+m-name: ipNetworkNumber
+entryParentId: ec58ef03-3d92-4129-b39a-474ab44a58c5

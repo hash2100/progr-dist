@@ -1,0 +1,10 @@
+version: 1
+dn: cn=system,ou=schema
+entryCSN: 20181114103836.910000Z#000001#000#000000
+cn: system
+objectclass: metaSchema
+objectclass: top
+createTimestamp: 20181114103838.537Z
+creatorsname: uid=admin,ou=system
+entryUUID: a6013a76-99c8-4879-b551-226511489b42
+entryParentId: 123cda2e-ddc1-476a-8901-cdc7ed6e4500

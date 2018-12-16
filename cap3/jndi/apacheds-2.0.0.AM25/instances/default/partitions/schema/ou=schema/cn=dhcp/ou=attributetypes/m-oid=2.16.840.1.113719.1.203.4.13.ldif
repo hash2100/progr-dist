@@ -1,0 +1,20 @@
+version: 1
+dn: m-oid=2.16.840.1.113719.1.203.4.13,ou=attributeTypes,cn=dhcp,ou=schema
+entryCSN: 20181114103837.601000Z#000001#000#000000
+m-usage: USER_APPLICATIONS
+m-collective: FALSE
+creatorsname: uid=admin,ou=system
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.12
+m-singlevalue: FALSE
+entryUUID: fde7b300-18ca-4370-a948-f7354a53af0f
+m-equality: distinguishedNameMatch
+m-description: The distinguished name(s) of the subnets.
+m-obsolete: FALSE
+m-oid: 2.16.840.1.113719.1.203.4.13
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20181114103838.795Z
+m-name: dhcpSubnetDN
+entryParentId: 35a0dbf2-0089-4eec-9953-49191a9d0b4b

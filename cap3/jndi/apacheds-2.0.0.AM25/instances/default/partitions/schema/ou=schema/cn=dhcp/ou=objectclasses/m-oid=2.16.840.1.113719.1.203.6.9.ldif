@@ -1,0 +1,17 @@
+version: 1
+dn: m-oid=2.16.840.1.113719.1.203.6.9,ou=objectClasses,cn=dhcp,ou=schema
+entryCSN: 20181114103837.563000Z#000000#000#000000
+creatorsname: uid=admin,ou=system
+entryUUID: 1d50f1a8-5472-4a71-9b49-d910675d64bf
+m-typeobjectclass: AUXILIARY
+m-supobjectclass: top
+m-must: cn
+m-description: Represents information about a collection of options defined.
+m-obsolete: FALSE
+m-oid: 2.16.840.1.113719.1.203.6.9
+objectclass: metaObjectClass
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20181114103838.705Z
+m-name: dhcpOptions
+entryParentId: 78e8270b-451c-457c-a533-33795ed0c1d2

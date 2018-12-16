@@ -1,0 +1,19 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.2.305,ou=attributeTypes,cn=adsconfig,ou=schema
+entryCSN: 20181114103837.384000Z#000001#000#000000
+creatorsname: uid=admin,ou=system
+m-length: 0
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.26
+m-singlevalue: TRUE
+m-ordering: caseExactOrderingMatch
+entryUUID: 6964cdf2-42de-4fad-825f-b3a244fce748
+m-substr: caseExactSubstringsMatch
+m-equality: caseExactMatch
+m-description: The service principal, used by GSSAPI
+m-oid: 1.3.6.1.4.1.18060.0.4.1.2.305
+objectclass: metaTop
+objectclass: metaAttributeType
+objectclass: top
+createTimestamp: 20181114103838.758Z
+m-name: ads-saslPrincipal
+entryParentId: 32c28465-e0b6-4401-88a8-a73b975e3b1f

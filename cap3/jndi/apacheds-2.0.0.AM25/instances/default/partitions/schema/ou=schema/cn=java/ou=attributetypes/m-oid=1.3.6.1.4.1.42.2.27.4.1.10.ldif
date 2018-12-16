@@ -1,0 +1,20 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.42.2.27.4.1.10,ou=attributeTypes,cn=java,ou=schema
+entryCSN: 20181114103837.883000Z#000000#000#000000
+m-usage: USER_APPLICATIONS
+m-collective: FALSE
+creatorsname: uid=admin,ou=system
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.15
+m-singlevalue: TRUE
+entryUUID: 2884a016-d8f0-4798-b837-a5d7fb30cfe0
+m-equality: caseExactMatch
+m-description: Fully qualified Java class name of a JNDI object factory
+m-obsolete: FALSE
+m-oid: 1.3.6.1.4.1.42.2.27.4.1.10
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20181114103838.732Z
+m-name: javaFactory
+entryParentId: 91e0c329-5092-4822-9f6a-1ed6a354aae0

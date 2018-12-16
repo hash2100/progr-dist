@@ -1,0 +1,1 @@
+register -server PersistentServer -applicationName PersistentCmmdcServer -classpath e:\mk\distr\corba\persistent\cmmdc\s\

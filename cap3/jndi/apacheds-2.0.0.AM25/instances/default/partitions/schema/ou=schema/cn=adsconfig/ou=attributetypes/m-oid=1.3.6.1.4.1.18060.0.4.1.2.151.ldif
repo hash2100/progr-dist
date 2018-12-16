@@ -1,0 +1,19 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.2.151,ou=attributeTypes,cn=adsconfig,ou=schema
+entryCSN: 20181114103837.355000Z#000001#000#000000
+creatorsname: uid=admin,ou=system
+m-length: 0
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.12
+m-singlevalue: TRUE
+m-ordering: distinguishedNameMatch
+entryUUID: a174656c-7899-4e40-a88a-58731e5b9777
+m-supattributetype: distinguishedName
+m-equality: distinguishedNameMatch
+m-description: The partition suffix
+m-oid: 1.3.6.1.4.1.18060.0.4.1.2.151
+objectclass: top
+objectclass: metaTop
+objectclass: metaAttributeType
+createTimestamp: 20181114103838.733Z
+m-name: ads-partitionSuffix
+entryParentId: 32c28465-e0b6-4401-88a8-a73b975e3b1f

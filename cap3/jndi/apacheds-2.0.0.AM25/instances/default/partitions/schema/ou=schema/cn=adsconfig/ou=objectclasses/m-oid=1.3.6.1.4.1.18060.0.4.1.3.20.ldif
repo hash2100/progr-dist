@@ -1,0 +1,14 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.3.20,ou=objectClasses,cn=adsconfig,ou=schema
+entryCSN: 20181114103837.315000Z#000001#000#000000
+m-supobjectclass: ads-transport
+m-description: an UDP transport
+m-oid: 1.3.6.1.4.1.18060.0.4.1.3.20
+objectclass: top
+objectclass: metaTop
+objectclass: metaObjectClass
+createTimestamp: 20181114103838.708Z
+m-name: ads-udpTransport
+creatorsname: uid=admin,ou=system
+entryUUID: 8017cbf1-2295-420b-b8e9-932a04c57613
+entryParentId: 77260864-8221-44e5-a7ab-01af9f08e056

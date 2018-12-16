@@ -1,0 +1,14 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.3.905,ou=objectClasses,cn=adsconfig,ou=schema
+entryCSN: 20181114103837.329000Z#000000#000#000000
+m-supobjectclass: ads-index
+m-description: A Mavibot index
+objectclass: metaObjectClass
+objectclass: metaTop
+objectclass: top
+m-oid: 1.3.6.1.4.1.18060.0.4.1.3.905
+createTimestamp: 20181114103838.808Z
+m-name: ads-mavibotIndex
+creatorsname: 0.9.2342.19200300.100.1.1=admin,2.5.4.11=system
+entryUUID: c613d359-bd58-4da6-b4f3-cd6f4b4e8c44
+entryParentId: 77260864-8221-44e5-a7ab-01af9f08e056

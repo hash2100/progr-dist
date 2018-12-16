@@ -1,0 +1,74 @@
+26-Nov-2018 14:19:31.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+26-Nov-2018 14:19:31.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+26-Nov-2018 14:19:31.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+26-Nov-2018 14:19:31.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Nov-2018 14:19:31.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.8.10-300.fc25.x86_64
+26-Nov-2018 14:19:31.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Nov-2018 14:19:31.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.151-1.b12.fc25.x86_64/jre
+26-Nov-2018 14:19:31.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_151-b12
+26-Nov-2018 14:19:31.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+26-Nov-2018 14:19:31.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/honorius/projects/dist1/labs/cap9/apache-tomcat-9.0.13
+26-Nov-2018 14:19:31.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/honorius/projects/dist1/labs/cap9/apache-tomcat-9.0.13
+26-Nov-2018 14:19:31.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/honorius/projects/dist1/labs/cap9/tomcat9/conf/logging.properties
+26-Nov-2018 14:19:31.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Nov-2018 14:19:31.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Nov-2018 14:19:31.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Nov-2018 14:19:31.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+26-Nov-2018 14:19:31.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Nov-2018 14:19:31.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/honorius/projects/dist1/labs/cap9/tomcat9
+26-Nov-2018 14:19:31.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/honorius/projects/dist1/labs/cap9/tomcat9
+26-Nov-2018 14:19:31.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/honorius/projects/dist1/labs/cap9/tomcat9/temp
+26-Nov-2018 14:19:31.069 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [:/usr/local/cuda/lib64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+26-Nov-2018 14:19:31.158 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Nov-2018 14:19:31.176 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Nov-2018 14:19:31.190 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+26-Nov-2018 14:19:31.191 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Nov-2018 14:19:31.192 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 573 ms
+26-Nov-2018 14:19:31.228 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Nov-2018 14:19:31.229 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+26-Nov-2018 14:19:31.247 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/honorius/projects/dist1/labs/cap9/apache-tomcat-9.0.13/webapps/timer.war]
+26-Nov-2018 14:19:31.572 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/honorius/projects/dist1/labs/cap9/apache-tomcat-9.0.13/webapps/timer.war] has finished in [324] ms
+26-Nov-2018 14:19:31.573 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/honorius/projects/dist1/labs/cap9/apache-tomcat-9.0.13/webapps/myservlet.war]
+26-Nov-2018 14:19:31.599 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/honorius/projects/dist1/labs/cap9/apache-tomcat-9.0.13/webapps/myservlet.war] has finished in [26] ms
+26-Nov-2018 14:19:31.600 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/honorius/projects/dist1/labs/cap9/apache-tomcat-9.0.13/webapps/apphelloD.war]
+26-Nov-2018 14:19:31.645 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Nov-2018 14:19:31.647 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/honorius/projects/dist1/labs/cap9/apache-tomcat-9.0.13/webapps/apphelloD.war] has finished in [47] ms
+26-Nov-2018 14:19:31.648 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/honorius/projects/dist1/labs/cap9/apache-tomcat-9.0.13/webapps/cmmdc.war]
+26-Nov-2018 14:19:31.668 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/honorius/projects/dist1/labs/cap9/apache-tomcat-9.0.13/webapps/cmmdc.war] has finished in [21] ms
+26-Nov-2018 14:19:31.669 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/honorius/projects/dist1/labs/cap9/apache-tomcat-9.0.13/webapps/helloname.war]
+26-Nov-2018 14:19:31.696 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/honorius/projects/dist1/labs/cap9/apache-tomcat-9.0.13/webapps/helloname.war] has finished in [27] ms
+26-Nov-2018 14:19:31.697 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/honorius/projects/dist1/labs/cap9/apache-tomcat-9.0.13/webapps/upload.war]
+26-Nov-2018 14:19:31.719 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/honorius/projects/dist1/labs/cap9/apache-tomcat-9.0.13/webapps/upload.war] has finished in [22] ms
+26-Nov-2018 14:19:31.720 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/honorius/projects/dist1/labs/cap9/apache-tomcat-9.0.13/webapps/download.war]
+26-Nov-2018 14:19:31.736 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/honorius/projects/dist1/labs/cap9/apache-tomcat-9.0.13/webapps/download.war] has finished in [16] ms
+26-Nov-2018 14:19:31.737 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/honorius/projects/dist1/labs/cap9/apache-tomcat-9.0.13/webapps/asyncservlet.war]
+26-Nov-2018 14:19:31.756 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/honorius/projects/dist1/labs/cap9/apache-tomcat-9.0.13/webapps/asyncservlet.war] has finished in [19] ms
+26-Nov-2018 14:19:31.757 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/honorius/projects/dist1/labs/cap9/apache-tomcat-9.0.13/webapps/docs]
+26-Nov-2018 14:19:31.770 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/honorius/projects/dist1/labs/cap9/apache-tomcat-9.0.13/webapps/docs] has finished in [13] ms
+26-Nov-2018 14:19:31.770 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/honorius/projects/dist1/labs/cap9/apache-tomcat-9.0.13/webapps/manager]
+26-Nov-2018 14:19:31.795 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/honorius/projects/dist1/labs/cap9/apache-tomcat-9.0.13/webapps/manager] has finished in [25] ms
+26-Nov-2018 14:19:31.795 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/honorius/projects/dist1/labs/cap9/apache-tomcat-9.0.13/webapps/examples]
+26-Nov-2018 14:19:32.002 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/honorius/projects/dist1/labs/cap9/apache-tomcat-9.0.13/webapps/examples] has finished in [207] ms
+26-Nov-2018 14:19:32.003 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/honorius/projects/dist1/labs/cap9/apache-tomcat-9.0.13/webapps/ROOT]
+26-Nov-2018 14:19:32.017 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/honorius/projects/dist1/labs/cap9/apache-tomcat-9.0.13/webapps/ROOT] has finished in [13] ms
+26-Nov-2018 14:19:32.017 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/honorius/projects/dist1/labs/cap9/apache-tomcat-9.0.13/webapps/host-manager]
+26-Nov-2018 14:19:32.034 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/honorius/projects/dist1/labs/cap9/apache-tomcat-9.0.13/webapps/host-manager] has finished in [16] ms
+26-Nov-2018 14:19:32.036 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-Nov-2018 14:19:32.051 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+26-Nov-2018 14:19:32.052 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 860 ms
+26-Nov-2018 15:50:11.194 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+26-Nov-2018 15:50:11.194 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-Nov-2018 15:50:11.202 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+26-Nov-2018 15:50:11.208 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Nov-2018 15:50:11.228 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [timer] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.util.TimerThread.mainLoop(Timer.java:552)
+ java.util.TimerThread.run(Timer.java:505)
+26-Nov-2018 15:50:11.228 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [timer] appears to have started a thread named [Timer-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.util.TimerThread.mainLoop(Timer.java:552)
+ java.util.TimerThread.run(Timer.java:505)
+26-Nov-2018 15:50:11.253 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-Nov-2018 15:50:11.254 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+26-Nov-2018 15:50:11.255 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+26-Nov-2018 15:50:11.255 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

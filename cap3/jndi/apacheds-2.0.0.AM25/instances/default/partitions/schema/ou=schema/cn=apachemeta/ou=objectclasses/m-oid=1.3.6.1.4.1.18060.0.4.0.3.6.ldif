@@ -1,0 +1,21 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.0.3.6,ou=objectClasses,cn=apachemeta,ou=schema
+entryCSN: 20181114103837.825000Z#000001#000#000000
+creatorsname: uid=admin,ou=system
+entryUUID: eb47f1d4-b5fd-4e70-a739-c285e4b06239
+m-may: m-name
+m-may: m-obsolete
+m-may: m-supDITStructureRule
+m-typeobjectclass: STRUCTURAL
+m-supobjectclass: top
+m-must: m-ruleId
+m-must: m-form
+m-description: meta definition of the DITStructureRule object
+m-obsolete: FALSE
+m-oid: 1.3.6.1.4.1.18060.0.4.0.3.6
+objectclass: top
+objectclass: metaTop
+objectclass: metaObjectClass
+createTimestamp: 20181114103839.001Z
+m-name: metaDITStructureRule
+entryParentId: 6eaea505-f4d1-45db-93ec-1c0fa512199c

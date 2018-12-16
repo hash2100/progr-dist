@@ -1,0 +1,15 @@
+dn: ads-interceptorId=schemaInterceptor,ou=interceptors,ads-directoryServiceId=d
+ efault,ou=config
+entryCSN: 20181114103836.581000Z#000000#000#000000
+objectclass: top
+objectclass: ads-base
+objectclass: ads-interceptor
+createTimestamp: 20181114103836.581Z
+creatorsName: uid=admin,ou=system
+ads-enabled: TRUE
+entryUUID: 9c4da13d-69c1-445d-9710-293fa17a67c8
+ads-interceptorclassname: org.apache.directory.server.core.schema.SchemaIntercep
+ tor
+ads-interceptororder: 10
+ads-interceptorid: schemaInterceptor
+entryParentId: 0b932888-3e9f-4916-93eb-c03662281c0b

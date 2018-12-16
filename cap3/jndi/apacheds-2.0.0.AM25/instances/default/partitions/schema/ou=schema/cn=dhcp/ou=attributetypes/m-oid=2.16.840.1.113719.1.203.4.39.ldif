@@ -1,0 +1,22 @@
+version: 1
+dn: m-oid=2.16.840.1.113719.1.203.4.39,ou=attributeTypes,cn=dhcp,ou=schema
+entryCSN: 20181114103837.604000Z#000000#000#000000
+m-usage: USER_APPLICATIONS
+m-collective: FALSE
+creatorsname: uid=admin,ou=system
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.26
+m-singlevalue: TRUE
+entryUUID: c6fe1444-8b12-4216-b3a9-9d217896baa6
+m-equality: caseIgnoreIA5Match
+m-description: Generic error log attribute that allows logging error conditions 
+ within a dhcpService or a dhcpSubnet, like no IP addresses available for lease.
+ 
+m-obsolete: FALSE
+m-oid: 2.16.840.1.113719.1.203.4.39
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20181114103838.947Z
+m-name: dhcpErrorLog
+entryParentId: 35a0dbf2-0089-4eec-9953-49191a9d0b4b

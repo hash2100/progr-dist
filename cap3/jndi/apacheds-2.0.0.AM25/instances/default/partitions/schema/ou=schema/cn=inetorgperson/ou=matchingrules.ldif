@@ -1,0 +1,10 @@
+version: 1
+dn: ou=matchingRules,cn=inetorgperson,ou=schema
+entryCSN: 20181114103837.523000Z#000000#000#000000
+ou: matchingrules
+objectclass: organizationalUnit
+objectclass: top
+createTimestamp: 20181114103838.701Z
+creatorsname: uid=admin,ou=system
+entryUUID: ec5ba20d-6e02-4475-ad82-ebd117673246
+entryParentId: 69609966-fe1b-4ae9-9abb-6973948e6257

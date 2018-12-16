@@ -1,0 +1,12 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.1.3,ou=normalizers,cn=apache,ou=schema
+entryCSN: 20181114103837.455000Z#000000#000#000000
+m-oid: 1.3.6.1.4.1.18060.0.4.1.1.3
+objectclass: metaNormalizer
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20181114103838.912Z
+creatorsname: uid=admin,ou=system
+entryUUID: c0a8101c-808d-4295-92f7-6ee976e8c29a
+m-fqcn: org.apache.directory.api.ldap.model.schema.normalizers.NoOpNormalizer
+entryParentId: d8b808de-6b1f-40dd-a5f7-6eb7881632e5

@@ -1,0 +1,15 @@
+dn: ads-interceptorId=collectiveAttributeInterceptor,ou=interceptors,ads-directo
+ ryServiceId=default,ou=config
+entryCSN: 20181114103836.585000Z#000000#000#000000
+objectclass: top
+objectclass: ads-base
+objectclass: ads-interceptor
+createTimestamp: 20181114103836.585Z
+creatorsName: uid=admin,ou=system
+ads-enabled: TRUE
+entryUUID: 03d0fc41-81d2-41c2-899f-8cfed6eef3c1
+ads-interceptorclassname: org.apache.directory.server.core.collective.Collective
+ AttributeInterceptor
+ads-interceptororder: 12
+ads-interceptorid: collectiveAttributeInterceptor
+entryParentId: 0b932888-3e9f-4916-93eb-c03662281c0b

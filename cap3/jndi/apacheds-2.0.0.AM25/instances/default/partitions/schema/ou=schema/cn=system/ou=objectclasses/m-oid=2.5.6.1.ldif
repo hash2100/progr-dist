@@ -1,0 +1,17 @@
+version: 1
+dn: m-oid=2.5.6.1,ou=objectClasses,cn=system,ou=schema
+entryCSN: 20181114103837.664000Z#000000#000#000000
+creatorsname: uid=admin,ou=system
+entryUUID: 09ebae49-a563-422d-bc1d-32636b2b3efd
+m-typeobjectclass: STRUCTURAL
+m-supobjectclass: top
+m-must: aliasedObjectName
+m-description: RFC2256: an alias
+m-obsolete: FALSE
+m-oid: 2.5.6.1
+objectclass: metaObjectClass
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20181114103838.938Z
+m-name: alias
+entryParentId: ed54689d-e2d0-493e-b531-f15e6c53b830

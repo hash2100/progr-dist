@@ -1,0 +1,20 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.2.837,ou=attributeTypes,cn=adsconfig,ou=schema
+entryCSN: 20181114103837.346000Z#000000#000#000000
+creatorsname: uid=admin,ou=system
+m-length: 0
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.44
+m-singlevalue: TRUE
+m-ordering: caseExactOrderingMatch
+entryUUID: 53f75839-1bea-4b60-b504-a0265368c634
+m-substr: caseExactSubstringsMatch
+m-supattributetype: name
+m-equality: caseExactMatch
+m-description: The replication consumer ID
+m-oid: 1.3.6.1.4.1.18060.0.4.1.2.837
+objectclass: top
+objectclass: metaTop
+objectclass: metaAttributeType
+createTimestamp: 20181114103838.704Z
+m-name: ads-replConsumerId
+entryParentId: 32c28465-e0b6-4401-88a8-a73b975e3b1f

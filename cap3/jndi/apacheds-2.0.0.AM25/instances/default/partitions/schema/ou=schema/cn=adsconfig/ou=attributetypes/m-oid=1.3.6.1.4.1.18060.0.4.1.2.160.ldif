@@ -1,0 +1,18 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.2.160,ou=attributeTypes,cn=adsconfig,ou=schema
+entryCSN: 20181114103837.417000Z#000000#000#000000
+creatorsname: uid=admin,ou=system
+m-length: 0
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.38
+m-singlevalue: TRUE
+entryUUID: c666bdd4-eb35-4db2-90c1-fac682c9ecdb
+m-supattributetype: name
+m-equality: objectIdentifierMatch
+m-description: The attributeType name or OID
+m-oid: 1.3.6.1.4.1.18060.0.4.1.2.160
+objectclass: metaTop
+objectclass: metaAttributeType
+objectclass: top
+createTimestamp: 20181114103838.884Z
+m-name: ads-indexAttributeId
+entryParentId: 32c28465-e0b6-4401-88a8-a73b975e3b1f

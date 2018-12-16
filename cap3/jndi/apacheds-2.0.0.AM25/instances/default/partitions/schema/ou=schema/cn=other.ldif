@@ -1,0 +1,14 @@
+version: 1
+dn: cn=other,ou=schema
+entryCSN: 20181114103836.911000Z#000000#000#000000
+cn: other
+objectclass: metaSchema
+objectclass: top
+createTimestamp: 20181114103838.884Z
+m-dependencies: system
+m-dependencies: core
+m-dependencies: apache
+m-dependencies: apachemeta
+creatorsname: uid=admin,ou=system
+entryUUID: 881a03b9-947b-4914-8d1a-e4f605c3f91a
+entryParentId: 123cda2e-ddc1-476a-8901-cdc7ed6e4500

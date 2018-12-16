@@ -1,0 +1,14 @@
+dn: ads-saslMechName=GSSAPI,ou=saslMechHandlers,ads-serverId=ldapServer,ou=serve
+ rs,ads-directoryServiceId=default,ou=config
+ads-saslmechname: GSSAPI
+entryCSN: 20181114103836.702000Z#000000#000#000000
+ads-saslmechclassname: org.apache.directory.server.ldap.handlers.sasl.gssapi.Gss
+ apiMechanismHandler
+objectclass: ads-saslMechHandler
+objectclass: ads-base
+objectclass: top
+createTimestamp: 20181114103836.702Z
+creatorsName: uid=admin,ou=system
+ads-enabled: TRUE
+entryUUID: 6f4d3c6a-da79-4195-8cf3-0c1756a7b7cd
+entryParentId: 62b6752e-e6d1-4cd4-bb40-8972f83abbec

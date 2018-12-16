@@ -1,0 +1,21 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.2.2.8,ou=attributeTypes,cn=apachedns,ou=schema
+entryCSN: 20181114103837.270000Z#000000#000#000000
+m-usage: USER_APPLICATIONS
+m-collective: FALSE
+creatorsname: uid=admin,ou=system
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.27
+m-singlevalue: TRUE
+entryUUID: 4c7748c0-8cfb-471b-9dbc-939d18bf82cc
+m-equality: integerMatch
+m-description: The unsigned 32 bit version number of the original copy of the zo
+ ne
+m-obsolete: FALSE
+m-oid: 1.3.6.1.4.1.18060.0.4.2.2.8
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20181114103838.651Z
+m-name: apacheDnsSoaSerial
+entryParentId: 9ae465e7-5eca-4a00-8f0e-cad6fc30e4d0

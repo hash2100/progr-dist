@@ -1,0 +1,17 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.13769.2.2.1,ou=objectClasses,cn=mozilla,ou=schema
+entryCSN: 20181114103837.987000Z#000000#000#000000
+creatorsname: uid=admin,ou=system
+entryUUID: 463f025c-3ddc-46f7-a8d6-35bb32f8a7b5
+m-may: c
+m-may: co
+m-typeobjectclass: STRUCTURAL
+m-supobjectclass: inetOrgPerson
+m-obsolete: FALSE
+m-oid: 1.3.6.1.4.1.13769.2.2.1
+objectclass: metaObjectClass
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20181114103838.876Z
+m-name: mozillaAbPersonObsolete
+entryParentId: 37f3d135-1d1f-4ab2-a545-46c5bfd0b063

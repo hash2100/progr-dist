@@ -1,0 +1,13 @@
+version: 1
+dn: m-oid=2.5.13.20,ou=normalizers,cn=system,ou=schema
+entryCSN: 20181114103837.660000Z#000000#000#000000
+m-oid: 2.5.13.20
+objectclass: metaNormalizer
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20181114103838.886Z
+creatorsname: uid=admin,ou=system
+entryUUID: 6532416d-609a-4d07-9919-34ba00718f4d
+m-fqcn: org.apache.directory.api.ldap.model.schema.normalizers.TelephoneNumberNo
+ rmalizer
+entryParentId: b008a71d-3498-4c89-936a-d685901b66cc

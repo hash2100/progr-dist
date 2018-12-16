@@ -1,0 +1,17 @@
+version: 1
+dn: m-oid=2.16.840.1.113719.1.203.6.8,ou=objectClasses,cn=dhcp,ou=schema
+entryCSN: 20181114103837.553000Z#000000#000#000000
+creatorsname: uid=admin,ou=system
+entryUUID: 7711f0f3-ca22-441b-ac96-84a3efe7aa8d
+m-typeobjectclass: STRUCTURAL
+m-supobjectclass: top
+m-must: cn
+m-description: Represents information about a collection of related classes.
+m-obsolete: FALSE
+m-oid: 2.16.840.1.113719.1.203.6.8
+objectclass: metaObjectClass
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20181114103838.938Z
+m-name: dhcpSubClass
+entryParentId: 78e8270b-451c-457c-a533-33795ed0c1d2

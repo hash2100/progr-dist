@@ -1,0 +1,17 @@
+version: 1
+dn: m-oid=2.5.6.23,ou=objectClasses,cn=core,ou=schema
+entryCSN: 20181114103836.984000Z#000000#000#000000
+creatorsname: uid=admin,ou=system
+entryUUID: d8e2ad85-d47d-4f5f-b584-ed0d5aadc057
+m-may: deltaRevocationList
+m-typeobjectclass: AUXILIARY
+m-supobjectclass: top
+m-description: X.509 delta CRL
+m-obsolete: FALSE
+objectclass: top
+objectclass: metaTop
+objectclass: metaObjectClass
+m-oid: 2.5.6.23
+createTimestamp: 20181114103838.982Z
+m-name: deltaCRL
+entryParentId: 9036490f-673a-426a-80d5-4f66b46ca00a

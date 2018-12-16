@@ -1,0 +1,21 @@
+version: 1
+dn: m-oid=0.9.2342.19200300.100.1.45,ou=attributeTypes,cn=cosine,ou=schema
+entryCSN: 20181114103837.127000Z#000000#000#000000
+m-usage: USER_APPLICATIONS
+creatorsname: uid=admin,ou=system
+m-collective: FALSE
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.15
+m-singlevalue: FALSE
+entryUUID: de4b0c98-f41b-4c35-8ba3-2d92238038e8
+m-substr: caseIgnoreSubstringsMatch
+m-equality: caseIgnoreMatch
+m-description: RFC1274: organizational status
+m-obsolete: FALSE
+m-oid: 0.9.2342.19200300.100.1.45
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20181114103838.909Z
+m-name: organizationalStatus
+entryParentId: b9805e92-526c-4771-a7bd-0c6d2662ab3a

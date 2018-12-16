@@ -1,0 +1,16 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.1466.101.120.111,ou=objectClasses,cn=system,ou=schema
+entryCSN: 20181114103837.666000Z#000000#000#000000
+creatorsname: uid=admin,ou=system
+entryUUID: 0e0c1333-c248-4902-ae2c-cb1c5f76e33b
+m-typeobjectclass: AUXILIARY
+m-supobjectclass: top
+m-description: RFC2252: extensible object
+m-obsolete: FALSE
+m-oid: 1.3.6.1.4.1.1466.101.120.111
+objectclass: metaObjectClass
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20181114103838.539Z
+m-name: extensibleObject
+entryParentId: ed54689d-e2d0-493e-b531-f15e6c53b830

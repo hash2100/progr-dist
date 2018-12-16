@@ -1,0 +1,14 @@
+dn: ads-extendedOpId=pwdModifyHandler,ou=extendedOpHandlers,ads-serverId=ldapSer
+ ver,ou=servers,ads-directoryServiceId=default,ou=config
+ads-extendedopid: pwdModifyHandler
+entryCSN: 20181114103836.693000Z#000000#000#000000
+objectclass: ads-extendedOpHandler
+objectclass: ads-base
+objectclass: top
+createTimestamp: 20181114103836.694Z
+creatorsName: uid=admin,ou=system
+ads-extendedophandlerclass: org.apache.directory.server.ldap.handlers.extended.P
+ wdModifyHandler
+ads-enabled: TRUE
+entryUUID: a9f49af4-dca1-46f0-b76b-4917809ed914
+entryParentId: 6a8706d7-18b7-414f-ac24-c2a9ac924638

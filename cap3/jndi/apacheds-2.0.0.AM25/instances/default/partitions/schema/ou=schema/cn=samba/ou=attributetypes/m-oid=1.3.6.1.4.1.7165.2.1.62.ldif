@@ -1,0 +1,21 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.7165.2.1.62,ou=attributeTypes,cn=samba,ou=schema
+entryCSN: 20181114103837.925000Z#000000#000#000000
+m-usage: USER_APPLICATIONS
+m-collective: FALSE
+creatorsname: uid=admin,ou=system
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.27
+m-singlevalue: TRUE
+entryUUID: ecc8303f-dfc9-458f-902a-777649958aaf
+m-equality: integerMatch
+m-description: Minimum password age, in seconds (default: 0 => allow immediate p
+ assword change)
+m-obsolete: FALSE
+m-oid: 1.3.6.1.4.1.7165.2.1.62
+objectclass: top
+objectclass: metaTop
+objectclass: metaAttributeType
+createTimestamp: 20181114103838.916Z
+m-name: sambaMinPwdAge
+entryParentId: 037dd302-1e81-4744-8211-a949c813f78b

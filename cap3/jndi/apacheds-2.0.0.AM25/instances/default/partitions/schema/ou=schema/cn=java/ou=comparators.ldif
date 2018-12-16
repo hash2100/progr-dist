@@ -1,0 +1,10 @@
+version: 1
+dn: ou=comparators,cn=java,ou=schema
+entryCSN: 20181114103837.871000Z#000001#000#000000
+ou: comparators
+objectclass: organizationalUnit
+objectclass: top
+createTimestamp: 20181114103838.553Z
+creatorsname: uid=admin,ou=system
+entryUUID: ae5f036d-35b3-4f8a-83d1-6c2ce6e1ea98
+entryParentId: cf9360fd-e835-454c-9e53-b13ea9c9c222

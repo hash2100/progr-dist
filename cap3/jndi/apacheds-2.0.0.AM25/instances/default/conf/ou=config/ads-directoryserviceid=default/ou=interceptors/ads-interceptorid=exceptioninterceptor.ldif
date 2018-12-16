@@ -1,0 +1,15 @@
+dn: ads-interceptorId=exceptionInterceptor,ou=interceptors,ads-directoryServiceI
+ d=default,ou=config
+entryCSN: 20181114103836.575000Z#000000#000#000000
+objectclass: top
+objectclass: ads-base
+objectclass: ads-interceptor
+createTimestamp: 20181114103836.575Z
+creatorsName: uid=admin,ou=system
+ads-enabled: TRUE
+entryUUID: 5cb154df-88f0-4a65-9660-4358668ea184
+ads-interceptorclassname: org.apache.directory.server.core.exception.ExceptionIn
+ terceptor
+ads-interceptororder: 7
+ads-interceptorid: exceptionInterceptor
+entryParentId: 0b932888-3e9f-4916-93eb-c03662281c0b

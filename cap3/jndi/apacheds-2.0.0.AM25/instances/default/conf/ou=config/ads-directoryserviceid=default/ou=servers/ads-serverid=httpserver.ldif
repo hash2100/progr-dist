@@ -1,0 +1,12 @@
+dn: ads-serverId=httpServer,ou=servers,ads-directoryServiceId=default,ou=config
+entryCSN: 20181114103836.662000Z#000000#000#000000
+objectclass: ads-server
+objectclass: ads-httpServer
+objectclass: ads-base
+objectclass: top
+createTimestamp: 20181114103836.662Z
+creatorsName: uid=admin,ou=system
+ads-serverid: httpServer
+ads-enabled: FALSE
+entryUUID: 6c099309-f08e-448f-98aa-79eeae1435e1
+entryParentId: e0c9c52a-8f27-4aec-877f-224a1adca1fa

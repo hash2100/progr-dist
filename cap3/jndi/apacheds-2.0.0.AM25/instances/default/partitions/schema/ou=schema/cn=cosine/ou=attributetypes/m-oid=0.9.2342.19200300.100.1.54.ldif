@@ -1,0 +1,20 @@
+version: 1
+dn: m-oid=0.9.2342.19200300.100.1.54,ou=attributeTypes,cn=cosine,ou=schema
+entryCSN: 20181114103837.140000Z#000000#000#000000
+m-usage: USER_APPLICATIONS
+m-collective: FALSE
+creatorsname: uid=admin,ou=system
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.12
+m-singlevalue: FALSE
+entryUUID: 629ffd1c-4aea-4409-82dd-708623ceff0c
+m-equality: distinguishedNameMatch
+m-description: RFC1274: DIT Redirect
+m-obsolete: FALSE
+m-oid: 0.9.2342.19200300.100.1.54
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20181114103838.699Z
+m-name: dITRedirect
+entryParentId: b9805e92-526c-4771-a7bd-0c6d2662ab3a

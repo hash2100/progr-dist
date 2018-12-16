@@ -1,0 +1,15 @@
+version: 1
+dn: m-oid=2.16.840.1.113719.1.203.6.4,ou=objectClasses,cn=dhcp,ou=schema
+entryCSN: 20181114103837.552000Z#000000#000#000000
+m-supobjectclass: top
+m-must: cn
+m-description: This stores configuration information about a pool.
+m-oid: 2.16.840.1.113719.1.203.6.4
+objectclass: metaObjectClass
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20181114103838.847Z
+m-name: dhcpPool
+creatorsname: uid=admin,ou=system
+entryUUID: 126daf23-5065-459b-8b95-f54c6c437fe3
+entryParentId: 78e8270b-451c-457c-a533-33795ed0c1d2

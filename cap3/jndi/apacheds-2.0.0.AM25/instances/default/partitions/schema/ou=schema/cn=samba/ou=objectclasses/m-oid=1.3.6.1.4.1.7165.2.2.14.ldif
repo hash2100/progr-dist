@@ -1,0 +1,14 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.7165.2.2.14,ou=objectClasses,cn=samba,ou=schema
+entryCSN: 20181114103837.907000Z#000000#000#000000
+m-supobjectclass: top
+m-description: Samba Trust Password
+m-oid: 1.3.6.1.4.1.7165.2.2.14
+objectclass: top
+objectclass: metaTop
+objectclass: metaObjectClass
+createTimestamp: 20181114103838.667Z
+m-name: sambaTrustPassword
+creatorsname: uid=admin,ou=system
+entryUUID: db9a6b7c-69a5-4904-87ef-d9733070406f
+entryParentId: 665ebca4-d4ea-412f-a341-8c78654e9f09

@@ -1,0 +1,16 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.2.165,ou=attributeTypes,cn=adsconfig,ou=schema
+entryCSN: 20181114103837.410000Z#000000#000#000000
+creatorsname: uid=admin,ou=system
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.7
+m-singlevalue: TRUE
+entryUUID: a02114e2-ff36-439c-9166-9fd25b7b9a7c
+m-equality: booleanMatch
+m-description: A flag telling if the index has a reverse table
+m-oid: 1.3.6.1.4.1.18060.0.4.1.2.165
+objectclass: top
+objectclass: metaTop
+objectclass: metaAttributeType
+createTimestamp: 20181114103838.886Z
+m-name: ads-indexHasReverse
+entryParentId: 32c28465-e0b6-4401-88a8-a73b975e3b1f

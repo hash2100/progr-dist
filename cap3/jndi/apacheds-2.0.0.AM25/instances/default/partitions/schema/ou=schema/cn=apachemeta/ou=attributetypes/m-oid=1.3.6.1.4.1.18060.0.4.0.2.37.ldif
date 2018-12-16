@@ -1,0 +1,20 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.0.2.37,ou=attributeTypes,cn=apachemeta,ou=schema
+entryCSN: 20181114103837.863000Z#000001#000#000000
+m-usage: USER_APPLICATIONS
+m-collective: FALSE
+creatorsname: uid=admin,ou=system
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.7
+m-singlevalue: TRUE
+entryUUID: 80a76d29-0ba9-4117-82ca-0b1d7dc82736
+m-equality: booleanMatch
+m-description: Used as a marker for schemas to enable or disable them.
+m-obsolete: FALSE
+objectclass: top
+objectclass: metaTop
+objectclass: metaAttributeType
+m-oid: 1.3.6.1.4.1.18060.0.4.0.2.37
+createTimestamp: 20181114103838.900Z
+m-name: m-disabled
+entryParentId: f09999c0-b623-4b7b-a832-8654d5ce55c2

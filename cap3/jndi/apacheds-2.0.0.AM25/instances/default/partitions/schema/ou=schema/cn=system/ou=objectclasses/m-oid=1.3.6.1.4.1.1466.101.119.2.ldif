@@ -1,0 +1,15 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.1466.101.119.2,ou=objectClasses,cn=system,ou=schema
+m-typeobjectclass: AUXILIARY
+entryCSN: 20181114103837.666000Z#000001#000#000000
+m-supobjectclass: top
+m-description: RFC2589: Dynamic Object
+m-oid: 1.3.6.1.4.1.1466.101.119.2
+objectclass: metaObjectClass
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20181114103838.574Z
+m-name: dynamicObject
+creatorsname: uid=admin,ou=system
+entryUUID: c376cbe4-251c-47ac-bfb7-ea2040cc8bca
+entryParentId: ed54689d-e2d0-493e-b531-f15e6c53b830

@@ -7,7 +7,7 @@ Suportul de curs este disponibil aici:
 
 
 ## Exemple precompilate
-Materialele pentru examen constau în următoarele programe rezolvate. Se vor alege 2 tehnologii distincte din fiecare capitol, în aşa fel încât suprapunerea temelor să fie minimă.
+Materialele pentru examen constau în următoarele programe rezolvate. Se vor alege 2 tehnologii distincte din fiecare capitol, în aşa fel încât suprapunerea temelor să fie minimă. Se vor modifica în aşa fel încât să implementeze tema aleasă.
 
 
 ### Cap.2 Programare cu socluri Java (folder-ul socluri)
@@ -90,10 +90,10 @@ $ sh receiver.sh
 	* JSPApp: JSTLCore
 	
 	
-## Adrese de grup:
-	* 10lf363 at googlegroups dot com
-	* 10lf362infoa at yahoogroups dot com
-	* grupa7264 at gmail dot com
+## Adrese de grup
+* 10lf363 at googlegroups dot com
+* 10lf362infoa at yahoogroups dot com
+* grupa7264 at gmail dot com
 
 
 

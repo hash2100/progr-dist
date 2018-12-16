@@ -1,0 +1,23 @@
+version: 1
+dn: m-oid=2.5.4.6,ou=attributeTypes,cn=core,ou=schema
+entryCSN: 20181114103837.018000Z#000000#000#000000
+m-usage: USER_APPLICATIONS
+creatorsname: uid=admin,ou=system
+m-collective: FALSE
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.15
+m-singlevalue: TRUE
+entryUUID: 2992454a-14ac-425a-acf4-3c426e007c81
+m-substr: caseIgnoreSubstringsMatch
+m-supattributetype: name
+m-equality: caseIgnoreMatch
+m-description: RFC2256: ISO-3166 country 2-letter code
+m-obsolete: FALSE
+m-oid: 2.5.4.6
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20181114103838.665Z
+m-name: c
+m-name: countryName
+entryParentId: 60ca505d-338b-4510-936e-8a7e3cba6e39

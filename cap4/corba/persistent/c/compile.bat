@@ -1,0 +1,1 @@
+javac CmmdcApp\*.java *.java

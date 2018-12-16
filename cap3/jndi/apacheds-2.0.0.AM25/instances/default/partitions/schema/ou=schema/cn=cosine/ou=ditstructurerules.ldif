@@ -1,0 +1,10 @@
+version: 1
+dn: ou=ditStructureRules,cn=cosine,ou=schema
+entryCSN: 20181114103837.085000Z#000000#000#000000
+ou: ditstructurerules
+objectclass: organizationalUnit
+objectclass: top
+createTimestamp: 20181114103838.890Z
+creatorsname: uid=admin,ou=system
+entryUUID: ea7a309c-23a8-43f1-a6bc-cc4e0a515111
+entryParentId: 31699574-f797-44d4-ae35-fef84287dbad

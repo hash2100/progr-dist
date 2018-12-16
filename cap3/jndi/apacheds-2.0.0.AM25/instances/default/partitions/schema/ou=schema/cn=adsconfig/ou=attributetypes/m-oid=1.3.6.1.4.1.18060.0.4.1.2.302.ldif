@@ -1,0 +1,18 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.2.302,ou=attributeTypes,cn=adsconfig,ou=schema
+entryCSN: 20181114103837.416000Z#000000#000#000000
+creatorsname: uid=admin,ou=system
+m-length: 0
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.27
+m-singlevalue: TRUE
+m-ordering: integerOrderingMatch
+entryUUID: 5ad9dca0-a1eb-4670-8146-646401f3bbc1
+m-equality: integerMatch
+m-description: The maximum number of entries to return
+m-oid: 1.3.6.1.4.1.18060.0.4.1.2.302
+objectclass: metaTop
+objectclass: metaAttributeType
+objectclass: top
+createTimestamp: 20181114103838.906Z
+m-name: ads-maxSizeLimit
+entryParentId: 32c28465-e0b6-4401-88a8-a73b975e3b1f

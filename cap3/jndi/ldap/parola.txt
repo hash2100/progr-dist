@@ -1,0 +1,2 @@
+OpenDS                 1q2w3e
+ApacheDirectoryService secret

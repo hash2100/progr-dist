@@ -1,0 +1,13 @@
+version: 1
+dn: cn=apachedns,ou=schema
+entryCSN: 20181114103836.912000Z#000001#000#000000
+cn: apachedns
+objectclass: metaSchema
+objectclass: top
+createTimestamp: 20181114103838.700Z
+m-dependencies: system
+m-dependencies: core
+creatorsname: uid=admin,ou=system
+m-disabled: TRUE
+entryUUID: 36bb677b-4f8e-4d7b-bb42-c8f2dc36bd1f
+entryParentId: 123cda2e-ddc1-476a-8901-cdc7ed6e4500

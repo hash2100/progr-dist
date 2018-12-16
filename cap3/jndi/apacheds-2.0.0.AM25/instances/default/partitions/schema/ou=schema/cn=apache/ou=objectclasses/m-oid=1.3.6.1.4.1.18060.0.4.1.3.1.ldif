@@ -1,0 +1,16 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.3.1,ou=objectClasses,cn=apache,ou=schema
+entryCSN: 20181114103837.456000Z#000001#000#000000
+creatorsname: uid=admin,ou=system
+entryUUID: dbbb9c3e-2c41-4701-98c6-8cb659752c9a
+m-typeobjectclass: STRUCTURAL
+m-supobjectclass: top
+m-must: prefNodeName
+m-obsolete: FALSE
+m-oid: 1.3.6.1.4.1.18060.0.4.1.3.1
+objectclass: metaObjectClass
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20181114103838.810Z
+m-name: prefNode
+entryParentId: b8b1e381-03de-450d-a902-0a916a1b343a

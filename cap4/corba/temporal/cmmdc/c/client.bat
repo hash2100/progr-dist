@@ -1,0 +1,1 @@
+java -cp . CmmdcClient -ORBInitialPort 1050 -ORBInitialHost localhost

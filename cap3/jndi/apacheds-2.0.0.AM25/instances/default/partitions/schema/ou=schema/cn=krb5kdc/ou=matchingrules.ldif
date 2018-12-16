@@ -1,0 +1,10 @@
+version: 1
+dn: ou=matchingRules,cn=krb5kdc,ou=schema
+entryCSN: 20181114103837.610000Z#000000#000#000000
+ou: matchingrules
+objectclass: organizationalUnit
+objectclass: top
+createTimestamp: 20181114103838.768Z
+creatorsname: uid=admin,ou=system
+entryUUID: 60b024f9-9240-4482-902c-dd83c2c479b3
+entryParentId: 6c29f800-9559-4730-9d8e-d7bbd9c8f145

@@ -1,0 +1,16 @@
+version: 1
+dn: m-oid=2.5.6.0,ou=objectClasses,cn=system,ou=schema
+entryCSN: 20181114103837.665000Z#000000#000#000000
+creatorsname: uid=admin,ou=system
+entryUUID: 02611463-af6d-4794-827a-490c83a3e9f7
+m-typeobjectclass: ABSTRACT
+m-must: objectClass
+m-description: top of the superclass chain
+m-obsolete: FALSE
+m-oid: 2.5.6.0
+objectclass: metaObjectClass
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20181114103838.746Z
+m-name: top
+entryParentId: ed54689d-e2d0-493e-b531-f15e6c53b830

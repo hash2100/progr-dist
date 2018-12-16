@@ -1,0 +1,10 @@
+version: 1
+dn: ou=objectClasses,cn=dhcp,ou=schema
+entryCSN: 20181114103837.545000Z#000000#000#000000
+ou: objectclasses
+objectclass: organizationalUnit
+objectclass: top
+createTimestamp: 20181114103838.583Z
+creatorsname: uid=admin,ou=system
+entryUUID: 78e8270b-451c-457c-a533-33795ed0c1d2
+entryParentId: 6f713fc0-33cb-4165-9c6e-295e71e2bd2f

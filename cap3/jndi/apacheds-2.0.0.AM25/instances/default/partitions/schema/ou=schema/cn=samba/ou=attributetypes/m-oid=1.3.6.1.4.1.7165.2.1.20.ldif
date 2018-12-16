@@ -1,0 +1,20 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.7165.2.1.20,ou=attributeTypes,cn=samba,ou=schema
+entryCSN: 20181114103837.975000Z#000000#000#000000
+m-usage: USER_APPLICATIONS
+m-collective: FALSE
+creatorsname: uid=admin,ou=system
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.26
+m-singlevalue: TRUE
+entryUUID: 65b49f01-def3-4e03-b185-671f95dd9029
+m-equality: caseIgnoreIA5Match
+m-description: Security ID
+m-obsolete: FALSE
+m-oid: 1.3.6.1.4.1.7165.2.1.20
+objectclass: top
+objectclass: metaTop
+objectclass: metaAttributeType
+createTimestamp: 20181114103838.650Z
+m-name: sambaSID
+entryParentId: 037dd302-1e81-4744-8211-a949c813f78b

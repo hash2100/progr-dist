@@ -1,0 +1,20 @@
+version: 1
+dn: m-oid=2.5.4.50,ou=attributeTypes,cn=core,ou=schema
+entryCSN: 20181114103837.039000Z#000000#000#000000
+m-usage: USER_APPLICATIONS
+m-collective: FALSE
+creatorsname: uid=admin,ou=system
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.34
+m-singlevalue: FALSE
+entryUUID: 811e941f-24e5-47a7-9653-557daf939573
+m-equality: uniqueMemberMatch
+m-description: RFC2256: unique member of a group
+m-obsolete: FALSE
+m-oid: 2.5.4.50
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20181114103838.547Z
+m-name: uniqueMember
+entryParentId: 60ca505d-338b-4510-936e-8a7e3cba6e39

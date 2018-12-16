@@ -1,0 +1,21 @@
+version: 1
+dn: m-oid=2.16.840.1.113719.1.203.4.37,ou=attributeTypes,cn=dhcp,ou=schema
+entryCSN: 20181114103837.596000Z#000000#000#000000
+m-usage: USER_APPLICATIONS
+m-collective: FALSE
+creatorsname: uid=admin,ou=system
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.27
+m-singlevalue: TRUE
+entryUUID: 9ee07d86-aea1-4252-b098-f84204fa5ea2
+m-equality: integerMatch
+m-description: Maximum Client Lead Time configuration in seconds, as defined in 
+ DHCP Failover Protocol [FAILOVR]
+m-obsolete: FALSE
+m-oid: 2.16.840.1.113719.1.203.4.37
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20181114103838.700Z
+m-name: dhcpMaxClientLeadTime
+entryParentId: 35a0dbf2-0089-4eec-9953-49191a9d0b4b

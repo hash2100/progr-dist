@@ -1,0 +1,10 @@
+version: 1
+dn: ou=syntaxCheckers,cn=inetorgperson,ou=schema
+entryCSN: 20181114103837.523000Z#000001#000#000000
+ou: syntaxcheckers
+objectclass: organizationalUnit
+objectclass: top
+createTimestamp: 20181114103838.897Z
+creatorsname: uid=admin,ou=system
+entryUUID: 3f534ad8-d15c-43f9-9141-8eb670b7612b
+entryParentId: 69609966-fe1b-4ae9-9abb-6973948e6257

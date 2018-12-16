@@ -1,0 +1,20 @@
+version: 1
+dn: m-oid=1.3.6.1.1.1.1.24,ou=attributeTypes,cn=nis,ou=schema
+entryCSN: 20181114103837.236000Z#000000#000#000000
+m-usage: USER_APPLICATIONS
+m-collective: FALSE
+creatorsname: uid=admin,ou=system
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.26
+m-singlevalue: FALSE
+entryUUID: a76cee6f-3382-47f0-bfad-5a1fb7339e84
+m-equality: caseExactIA5Match
+m-description: Boot image name
+m-obsolete: FALSE
+m-oid: 1.3.6.1.1.1.1.24
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20181114103838.917Z
+m-name: bootFile
+entryParentId: ec58ef03-3d92-4129-b39a-474ab44a58c5

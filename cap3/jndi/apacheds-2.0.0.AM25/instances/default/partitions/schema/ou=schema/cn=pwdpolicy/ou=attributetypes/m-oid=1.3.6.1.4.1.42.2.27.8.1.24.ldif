@@ -1,0 +1,16 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.42.2.27.8.1.24,ou=attributeTypes,cn=pwdpolicy,ou=schema
+entryCSN: 20181114103836.947000Z#000000#000#000000
+creatorsname: uid=admin,ou=system
+m-length: 0
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.27
+m-singlevalue: TRUE
+entryUUID: 3b15d08d-a4bc-4040-9b27-59d63c4ca8b3
+m-equality: integerMatch
+m-oid: 1.3.6.1.4.1.42.2.27.8.1.24
+objectclass: metaTop
+objectclass: metaAttributeType
+objectclass: top
+createTimestamp: 20181114103838.586Z
+m-name: pwdMinDelay
+entryParentId: b2516352-98a5-495d-9061-2b38a04b88a2

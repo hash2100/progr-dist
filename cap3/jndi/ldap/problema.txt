@@ -1,0 +1,4 @@
+Problema.
+
+Exceptie pe server. Cum trebuie modificat clientul LDAP pentru a
+eliminarea exceptiei (exceptiilor).

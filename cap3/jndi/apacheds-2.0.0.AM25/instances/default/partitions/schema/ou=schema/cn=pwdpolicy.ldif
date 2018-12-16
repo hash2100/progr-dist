@@ -1,0 +1,11 @@
+version: 1
+dn: cn=pwdpolicy,ou=schema
+entryCSN: 20181114103836.907000Z#000000#000#000000
+cn: pwdpolicy
+objectclass: metaSchema
+objectclass: top
+createTimestamp: 20181114103838.852Z
+m-dependencies: system
+creatorsname: uid=admin,ou=system
+entryUUID: 71b5e005-9057-4398-af01-8275570881fb
+entryParentId: 123cda2e-ddc1-476a-8901-cdc7ed6e4500

@@ -1,0 +1,6 @@
+JNDI_HOME=$PWD/fscontext-1_2-beta3
+CLASSPATH=.:$JNDI_HOME/lib/fscontext.jar:$JNDI_HOME/lib/providerutil.jar
+
+javac Lookup.java
+#java -cp $CLASSPATH -Djava.naming.factory.initial=com.sun.jndi.fscontext.RefFSContextFactory Lookup
+java -cp fscontext-4.2.jar:. -Djava.naming.factory.initial=com.sun.jndi.fscontext.RefFSContextFactory Lookup

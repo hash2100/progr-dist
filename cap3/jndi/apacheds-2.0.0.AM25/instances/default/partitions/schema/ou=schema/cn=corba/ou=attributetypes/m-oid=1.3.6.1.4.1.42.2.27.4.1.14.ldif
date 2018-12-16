@@ -1,0 +1,20 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.42.2.27.4.1.14,ou=attributeTypes,cn=corba,ou=schema
+entryCSN: 20181114103837.161000Z#000000#000#000000
+m-usage: USER_APPLICATIONS
+m-collective: FALSE
+creatorsname: uid=admin,ou=system
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.26
+m-singlevalue: TRUE
+entryUUID: 41b6670c-34d8-4956-a80c-983752f9f589
+m-equality: caseIgnoreIA5Match
+m-description: Stringified interoperable object reference of a CORBA object
+m-obsolete: FALSE
+m-oid: 1.3.6.1.4.1.42.2.27.4.1.14
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20181114103838.803Z
+m-name: corbaIor
+entryParentId: 7fdb2c5f-5c45-4040-b016-41028f406d6f

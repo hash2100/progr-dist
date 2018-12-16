@@ -1,0 +1,14 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.3.700,ou=objectClasses,cn=adsconfig,ou=schema
+entryCSN: 20181114103837.317000Z#000001#000#000000
+m-supobjectclass: ads-server
+m-description: The NtpServer ObjectClass
+m-oid: 1.3.6.1.4.1.18060.0.4.1.3.700
+objectclass: top
+objectclass: metaTop
+objectclass: metaObjectClass
+createTimestamp: 20181114103838.588Z
+m-name: ads-ntpServer
+creatorsname: uid=admin,ou=system
+entryUUID: c8377022-e0ff-4589-81b7-344935a7fc9b
+entryParentId: 77260864-8221-44e5-a7ab-01af9f08e056

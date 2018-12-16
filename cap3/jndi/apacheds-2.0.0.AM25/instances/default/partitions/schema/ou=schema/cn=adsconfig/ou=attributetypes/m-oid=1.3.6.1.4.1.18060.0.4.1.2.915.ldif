@@ -1,0 +1,16 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.2.915,ou=attributeTypes,cn=adsconfig,ou=schema
+entryCSN: 20181114103837.429000Z#000001#000#000000
+creatorsname: uid=admin,ou=system
+m-length: 0
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.7
+m-singlevalue: TRUE
+entryUUID: cce6dbdb-2b7e-44fc-8f90-ac05316649a1
+m-equality: booleanMatch
+m-oid: 1.3.6.1.4.1.18060.0.4.1.2.915
+objectclass: top
+objectclass: metaTop
+objectclass: metaAttributeType
+createTimestamp: 20181114103838.721Z
+m-name: ads-pwdAllowUserChange
+entryParentId: 32c28465-e0b6-4401-88a8-a73b975e3b1f

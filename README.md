@@ -28,7 +28,7 @@ Ambele sunt obligatorii.
 
 ### Cap.4 Invocarea procedurilor la distanta
 * cmmdc0, iiop
-* corba: temporal (la compilare se foloseste `javac -cp ../i:.`
+* corba: temporal (la compilare se foloseste `javac -cp ../i:.` ):
 ```
 $ orbd -ORBInitialHost localhost -ORBInitialPort 1050
 $ java -cp ../i:. CmmdcServer -ORBInitialHost localhost -ORBInitialPort 1050
@@ -36,34 +36,34 @@ $ java -cp ../i:. CmmdcClient -ORBInitialHost localhost -ORBInitialPort 1050
 ```
 
 * corba: persistent
-    va trebui sa stergeti folder-ul orb.db din server (daca exista)
-        ```
-		$ orbd -ORBInitialPort 1050 -serverPollingTime 200
-		$ servertool -ORBInitialPort 1050
-		  servertool > register -server PersistentServer -applicationName PersistentCmmdcServer -classpath .:../i
-		$ java -cp .:../i PersistentClient
-		```
+Va trebui sa stergeti folder-ul orb.db din server (daca exista).
+```
+$ orbd -ORBInitialPort 1050 -serverPollingTime 200
+$ servertool -ORBInitialPort 1050
+servertool > register -server PersistentServer -applicationName PersistentCmmdcServer -classpath .:../i
+$ java -cp .:../i PersistentClient
+```
 
 
 ### Cap.5 Mesaje in Java
 * queueJNDI: (se instaleaza MessageQueue5.1 prin editarea fisierului de configurare) 
-        ```
-		$ mq/bin/imqbrokerd
-		$ ant -f build.xml compile
-		$ sh mqaddobj.sh
-		$ ant -f build.xml run
-		$ sh mqdelobj.sh
-		```
+```
+$ mq/bin/imqbrokerd
+$ ant -f build.xml compile
+$ sh mqaddobj.sh
+$ ant -f build.xml run
+$ sh mqdelobj.sh
+```
 * topicJNDI
 * Cmmdc: (se customizeaza caile catre MessageQueue5.1 in fisierele .sh)
-        ```
-		$ mq/bin/imqbrokerd
-		$ source cpath.sh (se seteaza classpath in environment)
-		$ javac -cp $classpath *.java
-		$ sh server.sh
-		$ sh sender.sh
-		$ sh receiver.sh
-		```
+```
+$ mq/bin/imqbrokerd
+$ source cpath.sh (se seteaza classpath in environment)
+$ javac -cp $classpath *.java
+$ sh server.sh
+$ sh sender.sh
+$ sh receiver.sh
+```
 
 
 ### Cap.9 HyperText Transfer Protocol
@@ -81,7 +81,8 @@ $ java -cp ../i:. CmmdcClient -ORBInitialHost localhost -ORBInitialPort 1050
 	* filtru: descriptiv, programat
 	* listener
 
-Cap.10 Java Server Page
+
+### Cap.10 Java Server Page
 * jsp:
 	* JSPApp: jsp/DataCalend.jsp, hello, cmmdc, prop, errhandler
 	* jsphello

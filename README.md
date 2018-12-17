@@ -102,12 +102,12 @@ $ sh receiver.sh
 ```
 $ sudo dnf install docker
 ```
-    urmată de verificare:
+urmată de verificare:
 ```
 $ sudo service docker start
 $ sudo docker run hello-world
 ```
-    Rularea lui jetty:
+Rularea lui jetty:
 ```
 $ sudo docker pull docker.io/varsy/jetty
 $ sudo docker run -p 8080:8081 -d -i -t docker.io/varsy/jetty /run-jetty.sh

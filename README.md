@@ -2,7 +2,7 @@
 
 ## Materiale
 Suportul de curs este disponibil aici:
-* materiale de curs la https://github.com/e-scheiber/DistributedProgramming1
+* materiale de curs la https://github.com/e-scheiber/DistributedProgramming1 , https://github.com/e-scheiber/DistributedProgramming2 
 * suportul de curs, link direct, la https://github.com/e-scheiber/DistributedProgramming1/blob/master/DISTR1.pdf
 
 

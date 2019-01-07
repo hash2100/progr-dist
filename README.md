@@ -117,6 +117,20 @@ $ sudo docker kill 16cede499e20
 ```
 
 
+### Cap.12 Java Web Start
+* servlet: cmmdc-src/tojar.bat
+	* se muta cmmdc.jar in ../cmmdc/app
+	* se copiaza jnlp-servlet.jar in ../cmmdc/WEB-INF/lib
+	* se creeaza cmmdc.war
+	* pentru OpenJDK, se instaleaza pachetul icedtea-web ce furnizeaza javaws
+	* se asociaza fisierul .jnlp cu javaws
+
+
+### Cap.13 Web Socket
+* websocket/tomcat-glassfish: CmmdcAD, CmmdcID, Params, clientJava
+* websocket/glassfish: CmmdcADcoders
+
+
 ## Adrese de grup
 * 10lf363 at googlegroups dot com
 * 10lf362infoa at yahoogroups dot com

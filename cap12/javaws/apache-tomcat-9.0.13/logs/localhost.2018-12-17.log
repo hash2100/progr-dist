@@ -1,0 +1,51 @@
+17-Dec-2018 14:18:32.627 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+17-Dec-2018 14:18:32.627 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+17-Dec-2018 14:18:32.628 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@1f6c9cd8')
+17-Dec-2018 14:31:21.306 SEVERE [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/JSPApp] threw exception [An exception occurred processing [/jsp/JSTLsql.jsp] at line [10]
+
+7:   driver="org.apache.derby.jdbc.ClientDriver"
+8:   url="jdbc:derby://localhost:1527/AgendaEMail"
+9:   var="db" />
+10: <sql:query
+11:   dataSource="${db}"
+12:   var="rezult"
+13:   sql="select * from adrese" />
+
+
+Stacktrace:] with root cause
+ javax.servlet.jsp.JspException: Unable to get connection, DataSource invalid: "java.sql.SQLNonTransientConnectionException: DERBY SQL error: ERRORCODE: 40000, SQLSTATE: XJ040, SQLERRMC: Failed to start database 'AgendaEMail' with class loader sun.misc.Launcher$AppClassLoader@511d50c0, see the next exception for details.::SQLSTATE: XSDB6"
+	at org.apache.taglibs.standard.tag.common.sql.QueryTagSupport.getConnection(QueryTagSupport.java:285)
+	at org.apache.taglibs.standard.tag.common.sql.QueryTagSupport.doStartTag(QueryTagSupport.java:168)
+	at org.apache.jsp.jsp.JSTLsql_jsp._jspx_meth_sql_005fquery_005f0(JSTLsql_jsp.java:220)
+	at org.apache.jsp.jsp.JSTLsql_jsp._jspService(JSTLsql_jsp.java:147)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:668)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+17-Dec-2018 15:14:19.207 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+17-Dec-2018 15:14:19.207 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()

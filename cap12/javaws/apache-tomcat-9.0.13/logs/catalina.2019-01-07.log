@@ -1,0 +1,66 @@
+07-Jan-2019 14:36:24.296 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+07-Jan-2019 14:36:24.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+07-Jan-2019 14:36:24.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+07-Jan-2019 14:36:24.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+07-Jan-2019 14:36:24.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.8.10-300.fc25.x86_64
+07-Jan-2019 14:36:24.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Jan-2019 14:36:24.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.151-1.b12.fc25.x86_64/jre
+07-Jan-2019 14:36:24.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_151-b12
+07-Jan-2019 14:36:24.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Jan-2019 14:36:24.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/honorius/projects/dist1/labs/progr-dist/cap12/javaws/apache-tomcat-9.0.13
+07-Jan-2019 14:36:24.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/honorius/projects/dist1/labs/progr-dist/cap12/javaws/apache-tomcat-9.0.13
+07-Jan-2019 14:36:24.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/honorius/projects/dist1/labs/progr-dist/cap12/javaws/apache-tomcat-9.0.13/conf/logging.properties
+07-Jan-2019 14:36:24.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Jan-2019 14:36:24.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Jan-2019 14:36:24.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Jan-2019 14:36:24.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+07-Jan-2019 14:36:24.304 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Jan-2019 14:36:24.304 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/honorius/projects/dist1/labs/progr-dist/cap12/javaws/apache-tomcat-9.0.13
+07-Jan-2019 14:36:24.304 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/honorius/projects/dist1/labs/progr-dist/cap12/javaws/apache-tomcat-9.0.13
+07-Jan-2019 14:36:24.304 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/honorius/projects/dist1/labs/progr-dist/cap12/javaws/apache-tomcat-9.0.13/temp
+07-Jan-2019 14:36:24.304 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [:/usr/local/cuda/lib64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+07-Jan-2019 14:36:24.439 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Jan-2019 14:36:24.458 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Jan-2019 14:36:24.472 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-Jan-2019 14:36:24.473 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Jan-2019 14:36:24.474 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 623 ms
+07-Jan-2019 14:36:24.510 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Jan-2019 14:36:24.510 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+07-Jan-2019 14:36:24.530 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/honorius/projects/dist1/labs/progr-dist/cap12/javaws/apache-tomcat-9.0.13/webapps/cmmdc.war]
+07-Jan-2019 14:36:24.861 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jan-2019 14:36:24.890 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/honorius/projects/dist1/labs/progr-dist/cap12/javaws/apache-tomcat-9.0.13/webapps/cmmdc.war] has finished in [359] ms
+07-Jan-2019 14:36:24.890 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/honorius/projects/dist1/labs/progr-dist/cap12/javaws/apache-tomcat-9.0.13/webapps/docs]
+07-Jan-2019 14:36:24.907 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/honorius/projects/dist1/labs/progr-dist/cap12/javaws/apache-tomcat-9.0.13/webapps/docs] has finished in [17] ms
+07-Jan-2019 14:36:24.907 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/honorius/projects/dist1/labs/progr-dist/cap12/javaws/apache-tomcat-9.0.13/webapps/manager]
+07-Jan-2019 14:36:24.936 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/honorius/projects/dist1/labs/progr-dist/cap12/javaws/apache-tomcat-9.0.13/webapps/manager] has finished in [29] ms
+07-Jan-2019 14:36:24.937 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/honorius/projects/dist1/labs/progr-dist/cap12/javaws/apache-tomcat-9.0.13/webapps/examples]
+07-Jan-2019 14:36:25.155 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/honorius/projects/dist1/labs/progr-dist/cap12/javaws/apache-tomcat-9.0.13/webapps/examples] has finished in [218] ms
+07-Jan-2019 14:36:25.155 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/honorius/projects/dist1/labs/progr-dist/cap12/javaws/apache-tomcat-9.0.13/webapps/ROOT]
+07-Jan-2019 14:36:25.171 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/honorius/projects/dist1/labs/progr-dist/cap12/javaws/apache-tomcat-9.0.13/webapps/ROOT] has finished in [16] ms
+07-Jan-2019 14:36:25.172 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/honorius/projects/dist1/labs/progr-dist/cap12/javaws/apache-tomcat-9.0.13/webapps/host-manager]
+07-Jan-2019 14:36:25.190 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/honorius/projects/dist1/labs/progr-dist/cap12/javaws/apache-tomcat-9.0.13/webapps/host-manager] has finished in [18] ms
+07-Jan-2019 14:36:25.193 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Jan-2019 14:36:25.201 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-Jan-2019 14:36:25.203 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 728 ms
+07-Jan-2019 14:37:43.159 INFO [http-nio-8080-exec-8] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+ java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:414)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:294)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+07-Jan-2019 14:50:42.464 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-Jan-2019 14:50:42.465 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Jan-2019 14:50:42.473 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-Jan-2019 14:50:42.478 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Jan-2019 14:50:42.511 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Jan-2019 14:50:42.513 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+07-Jan-2019 14:50:42.513 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Jan-2019 14:50:42.514 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

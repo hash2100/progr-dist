@@ -1,0 +1,2 @@
+GLASSFISH_HOME=/home/honorius/projects/dist1/labs/progr-dist/cap14/glassfish4
+$GLASSFISH_HOME/glassfish/bin/appclient -client dist/agendae-client.jar -targetserver localhost:3700 

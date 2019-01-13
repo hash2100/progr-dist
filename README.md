@@ -131,6 +131,17 @@ $ sudo docker kill 16cede499e20
 * websocket/glassfish: CmmdcADcoders
 
 
+### Cap.14 Enterprise Java Beans
+* ejb/stateless/annotation/cmmdc1: asadmin deploy [appname.war] / asadmin start-domain / asadmin stop-domain / asadmin undeploy [appname]
+* ejb/stateless/jndi/cmmdc1
+* ejb/stateless/annotation/cmmdc1async
+* ejb/stateless/annotation/cmmdc2
+* ejb/singleton/annotation/ejb-single
+* ejb/statefull/annotation/app-numara
+* ejb/messagedriven/annotation/cmmdc
+* ejb/entityDerby/agendae
+
+
 ## Adrese de grup
 * 10lf363 at googlegroups dot com
 * 10lf362infoa at yahoogroups dot com

@@ -1,0 +1,2 @@
+DERBY_HOME=/home/honorius/projects/dist1/labs/progr-dist/cap14/glassfish4/javadb
+$DERBY_HOME/bin/ij $*

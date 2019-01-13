@@ -1,0 +1,7 @@
+/* AUTOMATICALLY GENERATED ON Sun Jan 13 16:21:20 EET 2019*/
+/* DO NOT EDIT */
+
+grant      principal * * {
+  permission javax.security.jacc.EJBRoleRefPermission "CmmdcMsgBean", "**";
+};
+

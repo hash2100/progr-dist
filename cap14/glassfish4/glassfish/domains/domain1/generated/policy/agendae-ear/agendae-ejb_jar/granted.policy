@@ -1,0 +1,12 @@
+/* AUTOMATICALLY GENERATED ON Sun Jan 13 16:52:22 EET 2019*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.EJBMethodPermission "AgendaEMailBean", "getEmail,Remote,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "AgendaEMailBean", "getNume,Remote,java.lang.String";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.EJBRoleRefPermission "AgendaEMailBean", "**";
+};
+

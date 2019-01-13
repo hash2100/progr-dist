@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sun Jan 13 16:46:33 EET 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance a816c00e-0168-47ad-b859-000006ba4900 
+on database directory /home/honorius/projects/dist1/labs/progr-dist/cap14/ejb/entityDerby/db-derby/AgendaEMail with class loader sun.misc.Launcher$AppClassLoader@266474c2 
+Loaded from file:/home/honorius/projects/dist1/labs/progr-dist/cap14/glassfish4/javadb/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_151-b12
+user.dir=/home/honorius/projects/dist1/labs/progr-dist/cap14/ejb/entityDerby/db-derby
+os.name=Linux
+os.arch=amd64
+os.version=4.8.10-300.fc25.x86_64
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

@@ -139,7 +139,7 @@ $ sudo docker kill 16cede499e20
 * ejb/singleton/annotation/ejb-single
 * ejb/statefull/annotation/app-numara
 * ejb/messagedriven/annotation/cmmdc
-* ejb/entityDerby/agendae
+* ejb/entityDerby/agendae (neaparat de setat propria cale a DB in glassfish)
 
 
 ## Adrese de grup
